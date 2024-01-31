@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/css/select2.min.css" rel="stylesheet">
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>Document</title>
+</head>
+
+<body class="container">
+    <div  class="order-form-22">
+      
+    
+        <div id="payinfoDiv" style="" class="container cont-data radio-Container block-Gray">
+            <h2 class="stp-spn">Payment</h2>
+            <br>
+            <div class="row form-group">
+
+
+                <div class="col-sm-4" id="spncredit">
+                    <input type="radio" id="rdCredit" name="rdpay" value="1" required="">
+                    <label class="valtyp-lbl" for="rdCredit">
+                        Credit Card
+                    </label>
+                </div>
+                <div class="col-sm-4" id="spnbilling">
+                    <input type="radio" id="rdBillirdBilling" name="rdpay" value="2" required="">
+                    <label class="valtyp-lbl" for="rdBillirdBilling">
+                        Billing
+                    </label>
+                </div>
+                <div class="col-sm-4" id="spnCheck">
+                    <input type="radio" id="rdCheck" name="rdpay" value="3" required="">
+                    <label class="valtyp-lbl" for="rdCheck">
+                        Check
+                    </label>
+                </div>
+
+
+
+
+            </div>
+            <br>
+            <br>
+            <div class="credit-Content">
+                <div class="row  check-Content" >
+
+                    <div id="divcredit">
+                        <div class="paymentMethod" style="display: block;">
+                            <div class="">
+
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <div class="creditCardForm">
+                                            <div  class="payment-steps">
+
+                                                <div class="form-group owner">
+                                                    <label for="owner">Owner</label>
+                                                    <input type="text" class="form-control" id="owner">
+                                                </div>
+
+                                                <div class="form-group" id="cardnumber-field">
+                                                    <label for="cardNumber">Card Number</label>
+                                                    <input type="number" class="form-control" id="cardNumber">
+                                                </div>
+                                                <label>Expiration Date</label>
+                                                <div class="row">
+                                                    <div class="col-md-6 ">
+                                                        <div class="form-group" id="exp-date"
+                                                            style="display: flex;">
+
+                                                            <div class="row">
+                                                                <div class="col-md-6 ">
+                                                                    <select id="month"
+                                                                        class="select2d "
+                                                                        placeholder="January" data-select2-id="month"
+                                                                        tabindex="-1">
+                                                                        <option value="01" data-select2-id="2">January
+                                                                        </option>
+                                                                        <option value="02">February </option>
+                                                                        <option value="03">March</option>
+                                                                        <option value="04">April</option>
+                                                                        <option value="05">May</option>
+                                                                        <option value="06">June</option>
+                                                                        <option value="07">July</option>
+                                                                        <option value="08">August</option>
+                                                                        <option value="09">September</option>
+                                                                        <option value="10">October</option>
+                                                                        <option value="11">November</option>
+                                                                        <option value="12">December</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <select id="year"
+                                                                        class="select2d "
+                                                                        placeholder="2016" data-select2-id="year"
+                                                                        tabindex="-1" >
+                                                                        <option value="16" data-select2-id="4"> 2016
+                                                                        </option>
+                                                                        <option value="17"> 2017</option>
+                                                                        <option value="18"> 2018</option>
+                                                                        <option value="19"> 2019</option>
+                                                                        <option value="20"> 2020</option>
+                                                                        <option value="21"> 2021</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 ">
+                                                        <div class="form-group" id="credit_cards">
+                                                            <img src="images/visa.jpg" id="visa" alt="visa">
+                                                            <img src="images/mastercard.jpg" id="mastercard"
+                                                                alt="master">
+                                                            <img src="images/amex.jpg" id="amex" class="selected"
+                                                                alt="amex">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="form-group" id="pay-now">
+                                                    <a type="submit" class="btn btn-default" id="confirm-purchase"
+                                                        href="finalForm.html">Confirm</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="card">
+                                            <div class="card_bar"></div>
+                                            <p class="chipContainer">
+                                                <img src="images/chip-pin-01.png" class="chipImg">
+                                                <span>World Bank</span>
+                                            </p>
+                                            <!-- <div class="cvv_card">
+                                                <span>0000</span>
+                                            </div> -->
+                                            <form action="" method="post" class="form">
+                                                <div class="card__number form__field">
+                                                    <input type="text" id="card__name" class="card__name__input"
+                                                        placeholder="John Smith" disabled="">
+                                                </div>
+
+                                                <div class="card__number form__field">
+                                                    <input type="number" id="card__number" class="card__number__input"
+                                                        style="width: 100%;" placeholder="4000 1234 5678 9010"
+                                                        disabled="">
+                                                </div>
+
+
+                                                <div class="card__expiration form__field">
+
+                                                    <input type="text" id="card__month" class="card__month__input"
+                                                        placeholder="02" disabled="" style="width:30px">
+
+                                                    <p>/</p>
+                                                    <input type="text" id="card__year" class="card__year__input"
+                                                        placeholder="2012" disabled="">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row check-Content rdBillirdBilling" style="display: none;">
+                    <a class="paylnk" id="paylnk-id" href="#">Click here if you have
+                        difficulty making a payment</a>
+                    <p><i class="fa fa-caret-right payarr-fa"></i> If you believe your payment
+                        went through but was not acknowledged, call US Arab Chamber of Commerce
+                        at <b>(929) 777-4300</b> during East Coast business hours to speak to a
+                        customer representative for help. </p>
+                    <div class="text-right">
+                        <button class="btn btn-primary orderBtn"> Order </button>
+                    </div>
+                </div>
+                <div class="row check-Content rdCheck " style="display: none;">
+                    <a class="paylnk" id="paylnk-id" href="#">Click here if you have
+                        difficulty making a payment</a>
+                    <p><i class="fa fa-caret-right payarr-fa"></i> If you believe your payment
+                        went through but was not acknowledged, call US Arab Chamber of Commerce
+                        at <b>(929) 777-4300</b> during East Coast business hours to speak to a
+                        customer representative for help. </p>
+                    <div class="text-right">
+                        <button class="btn btn-primary orderBtn"> Order </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.full.min.js"></script>
+    <script>
+        
+        
+    </script>
+</body>
+
+</html>

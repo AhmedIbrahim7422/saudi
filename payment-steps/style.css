@@ -1,0 +1,761 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.order-form-22 .block-Gray {
+    background-color: #efeded69;
+    padding: 23px;
+    border-radius: 7px;
+    margin-bottom: 0;
+    margin-top: 2em;
+    border: 1px solid gainsboro;
+}
+
+.order-form-22 .block-Gray .form-control {
+    background-color: white;
+}
+
+.order-form-22 .block-Gray input.form-control {
+    width: 100%;
+    border-radius: 2px 2px 0 0;
+    margin-bottom: 18px;
+}
+
+.order-form-22 .block-Gray label {
+    font-weight: bold;
+}
+
+.order-form-22 .loadtotaltime,
+.order-form-22 .loadtotalfee {
+    color: red;
+    font-weight: bold;
+}
+
+.order-form-22 .form1 .row {
+    margin: 0;
+}
+
+.order-form-22 .fillFormText {
+    color: green;
+}
+
+.order-form-22 .actions-Btn .btn {
+
+    margin-top: 12px;
+    min-width: 200px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+}
+
+.order-form-22 .actions-Btn .backBtn {
+
+    background: black;
+}
+
+.order-form-22 .reg-fedx-div .envlop-divs p {
+    line-height: 26px;
+}
+
+.order-form-22 .reg-fedx-div #divdemofrom,
+.order-form-22 .reg-fedx-div #divdemoto {
+    border: 1px solid #e3e5e6;
+    margin-top: 10px;
+    min-height: 57vh;
+    border-radius: 4px;
+    /*background: gainsboro;*/
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.order-form-22 .reg-fedx-div .fdxnot-p {
+    font-size: 24px;
+    color: #bf0404;
+    text-align: center;
+}
+
+.order-form-22 .reg-fedx-div .fdxtrue-fa {
+    font-size: 45px;
+    color: green;
+}
+
+.order-form-22 .reg-fedx-div .fdxfalse-fa {
+    font-size: 45px;
+    color: red
+}
+
+.order-form-22 .paytyp-divs div {
+    text-align: center;
+}
+
+.order-form-22 .reg-fedx-div .fedx-num {
+    color: #000;
+}
+
+.order-form-22 .reg-fedx-div .fedxclr {
+    color: #bf0404;
+}
+
+.order-form-22 .reg-fedx-div .shipfedx-div {
+    padding: 0px 7px;
+}
+
+.order-form-22 .reg-fedx-div .paytyp-divs img {
+    margin: auto;
+}
+
+.order-form-22 .reg-fedx-div .shipimg {
+    border: 1px solid #dcd5d5;
+    margin: auto;
+}
+
+.order-form-22 .reg-fedx-div .infedx-lft {
+    text-transform: uppercase;
+}
+
+.order-form-22 .reg-fedx-div .infedx-rght {
+    border-left: 2px solid #000;
+    text-transform: uppercase;
+    padding-left: 3px;
+    word-break: break-all;
+    min-height: 6em;
+}
+
+.order-form-22 .reg-fedx-div .frm-hr {
+    margin: 5px;
+    border-top: 1px solid #464545;
+    background-color: #c1bfbf;
+}
+
+.order-form-22 .reg-fedx-div .vertfrm-txt {
+    text-align: center;
+    vertical-align: middle;
+    width: 15px;
+    margin-right: 10px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    padding-top: -4px;
+    margin-top: 80px;
+    font-style: normal;
+    font-size: 16px;
+    white-space: nowrap;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.order-form-22 .reg-fedx-div .segboa-p {
+    font-size: 32px !important;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.order-form-22 .reg-fedx-div .column {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.order-form-22 .reg-fedx-div .column p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px !important;
+    color: #000;
+    line-height: 17px;
+    font-style: normal;
+    margin: 0px !important;
+    word-break: break-all;
+}
+
+
+.order-form-22 .reg-fedx-div .fdxview-div {
+    border: 1px solid #e5e5e5;
+    padding: 20px 10px;
+    margin-bottom: 15px;
+    background-color: #eee;
+    line-height: 25px;
+}
+
+.order-form-22 .fromto-lbl {
+    font-size: 20px;
+    color: #367dbb;
+    margin: 0px 0px 25px 15px;
+    text-decoration: underline;
+}
+
+.order-form-22 .fdxlbl-lbl {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #4e3c73;
+}
+
+.order-form-22 .reg-fedx-div .numlft .numdiv {
+    border: 2px solid #000;
+    margin-top: 4px;
+}
+
+.order-form-22 .reg-fedx-div .numrght {
+    font-size: 16px;
+    color: #000;
+}
+
+.order-form-22 .reg-fedx-div .shpfdx-p {
+    font-size: 18px !important;
+    text-decoration: underline;
+    color: #244f79 !important;
+}
+
+.order-form-22 .reg-fedx-div .shpfdx-p b {
+    font-size: 17px !important;
+}
+
+.order-form-22 .reg-fedx-div .fedxbody-mdl {
+    padding: 10px 0px 0px;
+}
+
+.order-form-22 .reg-fedx-div .shpfdx-col {
+    padding-left: 7px;
+}
+
+.order-form-22 .reg-fedx-div .fdxtyp-txt {
+    color: #272728;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+
+.order-form-22 .fedx-rdbtn {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.order-form-22 .fdxtyp-btn {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 4px;
+}
+
+.order-form-22 #shiptypesdiff {
+    padding-left: 3%;
+}
+
+.order-form-22 .reg-fedx-div .shdata-div {
+    background-color: #ffffffde;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    border: 1px solid #eee;
+    margin-top: 12px;
+    color: #000;
+}
+
+.order-form-22 .addrs-clr {
+    color: #345386;
+}
+
+.order-form-22 .shul-div {
+    font-size: 20px !important;
+    line-height: 30px !important;
+    padding-left: 4%;
+}
+
+.order-form-22 .shul-div li {
+    list-style: square;
+}
+
+.order-form-22 .reg-fedx-div .column .infedx-lft b,
+.order-form-22 .reg-fedx-div .column .infedx-rght b {
+    font-size: 11px;
+    margin-top: 0px;
+}
+
+.order-form-22 .reg-fedx-div .fdxopt-div,
+.order-form-22 .reg-fedx-div .fdxoptan-div {
+    display: none;
+}
+
+.order-form-22 .reg-fedx-div img {
+    width: 100%
+}
+
+.order-form-22 .radio-Container input[type="radio"] {
+    border-radius: 0;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    overflow: hidden;
+    margin-top: 1px;
+    position: relative;
+    vertical-align: middle;
+    /* border-radius: 50%; */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: 0.2s ease-in-out;
+    transition-property: background-color, border;
+    cursor: pointer;
+    border: 2px solid #11144a;
+    /* background-color: #f1f4ff; */
+    outline: none !important;
+    box-shadow: none !important;
+    /* border-radius: 3px; */
+    margin-right: 15px;
+}
+
+.order-form-22 .shippingoptiontype .form-check label {
+    font-size: 26px;
+}
+
+.order-form-22 .radio-Container input[type="radio"]:checked:after {
+    content: "\2713";
+    font-size: 12px;
+    width: 33px;
+    height: 26px;
+    font-size: 35px;
+    position: absolute;
+    top: -12px;
+    left: 3px;
+    color: #c21a1c;
+    font-weight: bold;
+}
+
+.order-form-22 .shippingoptiontype .form-check {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.order-form-22 .reg-fedx-div .fedxdemo-div {
+    padding: 5px 15px 0px;
+    line-height: 35px;
+    font-size: 17px;
+    margin-top: 10px;
+    height: calc(100% - 40px);
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 2px 2px #a2a2a2;
+    background-color: #f0f0f0;
+    line-height: 30px !important;
+    border: 1px solid #eee;
+
+}
+
+
+.order-form-22 .reg-fedx-div .fedxdemo-div h2 {
+    font-size: 1.4em;
+    line-height: 32px;
+    color: #d10404;
+    margin-top: 10px;
+}
+
+.order-form-22 .reg-fedx-div .num-color,
+.order-form-22 .reg-fedx-div .shipfedx-div b {
+    color: #000000;
+    font-size: 20px;
+}
+
+
+
+.order-form-22 .editfdx-btn {
+    padding: 5px 20px;
+    font-size: 18px;
+    background-color: #00779d;
+    border-color: #006f93;
+}
+
+@media screen and(max-width: 1200px) {
+    .order-form-22 .reg-fedx-div .column p {
+        font-size: 11px !important;
+    }
+
+    .order-form-22 .countryCase .box {
+        margin-top: 2em;
+    }
+}
+
+.order-form-22 .reg-fedx-div .column .exampleOverlay {
+    position: relative;
+}
+
+.order-form-22 .reg-fedx-div .column .exampleOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background: #d9d9d9a1;
+    width: 100%;
+    z-index: 2;
+    left: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-form-22 .reg-fedx-div .column .exampleOverlay p {
+    transform: rotate(314deg);
+    font-size: 7vw !important;
+    color: red;
+    /* font-weight: bold!important; */
+}
+
+
+
+/* FRONT OF CARD */
+
+.order-form-22 .divcredit .container {
+    perspective: 1000px;
+}
+
+.order-form-22 .creditcard {
+    width: 100%;
+    margin: auto;
+    max-width: 500px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: -webkit-transform 0.6s;
+    -webkit-transition: -webkit-transform 0.6s;
+    transition: transform 0.6s;
+    transition: transform 0.6s, -webkit-transform 0.6s;
+    cursor: pointer;
+    min-height: 36vh;
+}
+
+.order-form-22 .creditcard .front,
+.order-form-22 .creditcard .back {
+    position: absolute;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+    color: #47525d;
+}
+
+.order-form-22 .creditcard .back {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.order-form-22 .creditcard.flipped {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+
+.order-form-22 #payinfoDiv .card {
+    background-color: #00403b;
+    border-radius: 1rem;
+    font-family: 'Abel';
+    color: #47474e;
+    /* padding: 2rem; */
+    font-family: Abel;
+    width: 441px;
+    margin: auto;
+    /* margin-top: 12em; */
+    background-image: url('../content/images/visaCreditCard.jpg');
+    background-size: cover;
+    height: 286px;
+    padding-top: 1px;
+}
+
+.order-form-22 .card__header {
+    margin-bottom: 4rem;
+    padding: 5px;
+}
+
+.order-form-22 .card__header:before,
+.order-form-22 .card__header:after {
+    content: " ";
+    display: table;
+}
+
+.order-form-22 .card__header:after {
+    clear: both;
+}
+
+.order-form-22 .card__title {
+    color: #fff !important;
+    float: left;
+    font-size: 2.5rem !important;
+    font-family: Abel;
+}
+
+.order-form-22 .card__logo {
+    float: right;
+}
+
+.order-form-22 .card__number__input {
+    font-size: 3rem;
+}
+
+.order-form-22 .card__expiration {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.order-form-22 .card__expiration p {
+    position: absolute;
+    top: 0;
+    left: 44px;
+    font-size: 25px;
+    color: white;
+}
+
+.order-form-22 .card__ccv {
+    float: right;
+}
+
+.order-form-22 .card__ccv__input {
+    width: 3.75rem;
+}
+
+.order-form-22 .card .ui-selectmenu-button {
+    float: left;
+    margin-right: 2rem;
+}
+
+.order-form-22 .credit input {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font: inherit;
+    width: auto;
+}
+
+.order-form-22 .card input::placeholder {
+    color: #fff;
+    font-size: 25px;
+}
+
+.order-form-22 .card label {
+    display: block;
+    font-weight: normal;
+    color: #f5da75;
+    font-size: 20px;
+}
+
+.order-form-22 .form:before,
+.order-form-22 .form:after {
+    content: " ";
+    display: table;
+}
+
+.order-form-22 .form:after {
+    clear: both;
+}
+
+.form__field {
+    /* margin-bottom: 1.5rem; */
+}
+
+.order-form-22 .form input {
+    outline: 0;
+    font-weight: normal;
+    font-size: 24px;
+    font-family: 'Plus Jakarta Sans';
+    margin-left: 12px;
+    background: transparent;
+    display: inline-block;
+    border: 0;
+}
+
+.order-form-22 .form .card__year__input {
+    position: absolute;
+    top: 0;
+    left: 45px;
+}
+
+.order-form-22 .form input[type=email],
+.order-form-22 .form input[type=password] {
+    width: 100%;
+}
+
+
+
+.order-form-22 .credCard .custom-select-trigger {
+    border: 0;
+    color: white;
+    font-size: 22px;
+    line-height: 30px;
+    padding: 0;
+    width: 140px;
+}
+
+.order-form-22 .credCard .custom-select-trigger::after {
+    right: 22px;
+    width: 10px;
+    height: 10px;
+    font-weight: normal;
+    border-bottom: 2px solid rgb(245 218 117);
+    border-right: 2px solid rgb(245 218 117);
+    top: 15px;
+}
+
+.order-form-22 .card .custom-select-wrapper {
+    width: 133px;
+}
+
+.order-form-22 .card .custom-select {
+    height: auto;
+    width: 157px;
+}
+
+.order-form-22 .card .custom-option {
+    font-size: 17px;
+    padding: 0;
+    line-height: 30px;
+    background: #f8eec8;
+}
+
+.order-form-22 .card .custom-options {
+    max-height: 133px;
+}
+
+@media (max-width:1200px) {
+
+    .order-form-22 .card {
+
+        width: 100%;
+
+        margin: 0;
+
+        margin-bottom: 5em;
+
+        height: auto;
+
+    }
+}
+
+
+.card__header:after {
+    clear: both;
+}
+
+.card__title {
+    color: #fff !important;
+    float: left;
+    font-size: 2.5rem !important;
+    font-family: Abel;
+}
+
+.card__logo {
+    float: right;
+}
+
+.card__number__input {
+    /* font-size: 3rem; */
+}
+
+.card__expiration {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.card__expiration p {
+    position: absolute;
+    top: 0;
+    left: 44px;
+    font-size: 25px;
+    color: white;
+}
+
+.order-form-22 .card__ccv {
+    float: right;
+}
+
+.order-form-22 .card__ccv__input {
+    width: 3.75rem;
+}
+
+.order-form-22 .card .ui-selectmenu-button {
+    float: left;
+    margin-right: 2rem;
+}
+
+.order-form-22 .chipContainer img {
+    width: 65px;
+    position: relative;
+    margin-left: 14px;
+}
+
+.order-form-22 .chipContainer span {
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 25px;
+    font-family: 'Plus Jakarta Sans';
+}
+
+.order-form-22 .chipContainer {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
+    font-size: 20px;
+    font-family: "Abel";
+}
+
+.order-form-22 .card__expiration .form__field p {
+    display: inline;
+    font-size: 30px;
+    color: white;
+}
+
+.order-form-22 .card_bar {
+    background-color: #646464;
+    content: "";
+    height: 57px;
+    margin-top: 17px;
+    display: block;
+    width: 100%;
+}
+
+.order-form-22 .select2-container--default .select2-selection--single .select2-selection__arrow,
+.order-form-22 .select2-container .select2-selection--single {
+    height: 51px;
+}
+
+.order-form-22 .select2-container {
+    width: 176px !important;
+}
+
+.order-form-22 .select2-container .select2-selection--single {
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+
+.order-form-22 .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 43px;
+}
+
+.order-form-22 #payinfoDiv input {
+    font-size: 19px;
+}
+
+.order-form-22 #confirm-purchase {
+    background: #cd0000;
+    width: 100%;
+    margin-top: 1em;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    border: 2px solid black;
+}
+.order-form-22 .orderBtn{
+    min-width: 200px;
+}
+.order-form-22 .paylnk{
+    color: blue;
+}

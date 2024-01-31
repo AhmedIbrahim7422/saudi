@@ -1,0 +1,584 @@
+<?php
+get_header();
+?>
+<!-- 
+            <section class="videoContainer">
+
+                <video id="vid" playsinline="" autoplay="" muted="" loop="">
+                    <source
+                        src="https://media.istockphoto.com/videos/sunset-video-of-drone-point-of-view-around-working-oil-refinery-and-video-id1267442875"
+                        type="video/mp4">
+                </video>
+
+            </section> -->
+
+
+            
+            <section>
+                <br>
+                <div class="container ">
+                    <div class="row">
+                        <?php //$document = get_documents(); print_r($document); ?>
+                        <div class="col-sm-6 about-img">
+                            
+                            <img src="<?php bloginfo('template_directory')?>/assets/images/kssa3.jpg"
+                            alt="saudi embassy img" style="width:100%">
+                            
+                        </div>
+                        <div class="col-sm-6">
+                        <h1 class="about-h3">Saudi Embassy Legalization of Documents
+                        </h1>
+                        <p> US Arab Chamber of Commerce processes documents from all 50 U.S. States including the U.S.
+                            Department of State in Washington, DC (Federal Documents), and select Embassy & Consulate
+                            offices.
+                            This website is provided by the US Arab Chamber of Commerce to facilitate and expedite the
+                            legalization process of corporate documents issued in the U.S. for use in the Kingdom of
+                            Saudi Arabia.
+                            With over 10 years of experience and thousands of documents authenticated monthly,
+                            individuals and corporations entrust us with their most important legal documents.
+                            US Arab Chamber of Commerce is a registered service provider with the Secretary of State -
+                            Authentications, Apostilles, and Certificates.
+
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+
+                        <div class="main-service">
+
+                            <div class="row">
+
+                                <h2>
+                                    <br>
+
+                                    Federal documents
+
+                                </h2>
+                                <div class="col-sm-12">
+                                    <p>
+                                        (FBI Reports,Certificate of Naturalization, Petition for Name Change,
+                                        Certificate of Free Sale, etc.). An authentication of documents issued by any
+                                        federal agency has to be done by the US Department of State in Washington D.C.
+                                        This includes all original documents issued by a federal agency such as FDA
+                                        documents, USPTO trademark and assignment documents, USDA documents, Homeland
+                                        Security Documents and EPA issued documents.
+                                    </p>
+                                    <p>USACC has streamlined this process by offering a comprehensive service open to
+                                        the public for a fee of <span class="totfee-spn">$75.00</span> per document.
+                                    </p>
+
+                                </div>
+
+
+                            </div>
+
+                            <?php
+                            $SelectedDocument = array(
+                                "DocumentCaseId" => 1795,
+                                "HaveArabChamber" => true,
+                                "IsArabChamber" => true,
+                                "Count" => 1,
+                                "ArabChamberCount" => 1,
+                                "ProductList" => null,
+                                "SubDocumentId" => null,
+                                "StateId" => 19,
+                                "InvoiceList" => null,
+                                "ArroundTimeId" => null,
+                                "SubDocList" => null,
+                                "AkinJumpCount" => null
+                            );
+                            $services = get_services_without_post($SelectedDocument)->Services;
+                            $totalAmount = 0;
+                            // print_r($services);
+                            ?>
+
+                            <div class="row">
+                                <div class=" col-sm-12">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-striped doctyp-tbl">
+                                            <tbody>
+                                                <tr>
+                                                    <th>Service requested</th>
+                                                    <!-- <th>Count</th> -->
+                                                    <th>
+                                                    TotalFee
+
+                                                    </th>
+
+                                                </tr>
+
+                                                <?php foreach ($services as $key => $value) { ?>
+                                                    <tr>
+                                                        <td><b><?php echo $value->Name; ?></b></td>
+                                                        <!-- <td>
+                                                        <?php echo $value->Count; ?>
+                                                        </td> -->
+                                                        <td>
+                                                        $<?php echo $value->TotalFee; $totalAmount+=$value->TotalFee; ?>
+                                                        </td>
+                                                    </tr>
+
+                                                <?php } ?>
+                                                
+                                                <tr>
+                                                    <td><b>Total</b></td>
+                                                    
+                                                    <td>
+                                                    <b>$<?php echo $totalAmount; ?></b>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-offset-5 col-sm-2">
+                                    <a type="button" data-case-consulate="0" data-case-arab="1" data-case-id="1795" data-case-name="Federal documents" class="btn btn-warning form-control pay-btn order-handle-case" data-toggle="modal" data-target="#exampleModal1">Order</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="countryList">
+                            <div class="sidebar">
+
+                                <div class="locat-div">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h2 class="section-title"><span>Saudi Arabia Embassy &amp; Consulates</span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h2 class="contit-h2">Houston
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p>
+                                                <i class="fa fa-map-marker icon-fa" aria-hidden="true"></i> 5718
+                                                Westheimer Road, Suite 1500, Houston, TX 77057
+
+                                            </p>
+                                            <p> <i class="fa fa-phone" aria-hidden="true"></i> (713) 785-5577
+
+                                                <br>
+                                                
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="locat-div">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h2 class="contit-h2">Los Angeles
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p>
+                                                <i class="fa fa-map-marker icon-fa" aria-hidden="true"></i> 12400
+                                                Wilshire Blvd, Suite 700
+                                                Los Angeles, CA 90025
+
+                                            </p>
+                                            <p> <i class="fa fa-phone" aria-hidden="true"></i> (310) 479-6000
+
+                                                <br>
+                                                <!-- <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:egyptnyc@gmail.com">egyptnyc@gmail.com</a> -->
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="locat-div">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h2 class="contit-h2">New York
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p>
+                                                <i class="fa fa-map-marker icon-fa" aria-hidden="true"></i> 866 Second
+                                                Ave., 5th Floor
+                                                New York, NY 10017
+
+                                            </p>
+                                            <p> <i class="fa fa-phone" aria-hidden="true"></i> (212) 752-2740
+
+                                                <br>
+                                                <!-- <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:consulateofegyptchicago@gmail.com">consulateofegyptchicago@gmail.com</a> -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>Export Documents</h2>
+                        <p class="subtit-p">This includes the Certificate of Origin, Commercial Invoice,Packing lists,
+                            and Certificate of Conformity(COC). These certificates must be signed by a company officer,
+                            notarized by the local notary public, and certified by the local Secretary of State office
+                            in the same state where the notary is licensed.</p>
+
+                    </div>
+
+                </div>
+
+
+                <?php
+                            $SelectedDocument = array(
+                                "DocumentCaseId" => 1799,
+                                "HaveArabChamber" => false,
+                                "IsArabChamber" => false,
+                                "Count" => 1,
+                                "ArabChamberCount" => null,
+                                "ProductList" => null,
+                                "SubDocumentId" => null,
+                                "StateId" => 19,
+                                "InvoiceList" => null,
+                                "ArroundTimeId" => null,
+                                "SubDocList" => array(
+                                    array(
+
+                                        "subId"=> 1030,
+                                        "subCount"=> 1
+                                    ),
+                                    array(
+
+                                        "subId"=> 1124,
+                                        "subCount"=> 1
+                                    ),
+                                    array(
+
+                                        "subId"=> 1125,
+                                        "subCount"=> 1
+                                    ),
+                                    array(
+
+                                        "subId"=> 1126,
+                                        "subCount"=> 1
+                                    )
+                                ),
+                                "AkinJumpCount" => null
+                            );
+                            $services = get_services_without_post($SelectedDocument)->Services;
+                            $totalAmount = 0;
+                            
+                            // echo "<pre>";
+                            // print_r($services);
+                            // echo "</pre>";
+                            ?>
+
+                <div class="row">
+                    <div class="col-sm-offset-2 col-sm-8">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped doctyp-tbl">
+                                <tbody>
+                                    
+                                    <tr>
+                                        <th width="60%">Service requested</th>
+                                        <!-- <th>Count</th> -->
+                                        <th>
+                                        TotalFee
+
+                                        </th>
+
+                                    </tr>
+
+                                    <?php foreach ($services as $key => $value) { ?>
+                                        <tr>
+                                            <td><b><?php echo $value->Name; ?></b></td>
+                                            <!-- <td>
+                                            <?php echo $value->Count; ?>
+                                            </td> -->
+                                            <td>
+                                            $<?php echo ($value->TotalFee !=0)?$value->TotalFee . " Per document":$value->TotalFee; $totalAmount+=$value->TotalFee; ?>
+                                            </td>
+                                        </tr>
+
+                                    <?php } ?>
+                                    
+                                    <tr>
+                                        <td><b>Total</b></td>
+                                        
+                                        <td>
+                                        <b>$<?php echo ($totalAmount !=0)? $totalAmount. " Per document":$totalAmount; ?></b>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-offset-5 col-sm-2">
+                        <a type="button" data-case-consulate="1" data-case-arab="0" data-case-id="1799" data-case-name="Export Documents" class="btn btn-warning form-control pay-btn order-handle-case document-with-sub" data-toggle="modal" data-target="#exampleModal2">Order</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>Documents Certified by Local Secretary of State
+                        </h2>
+                        <p class="subtit-p">This includes all business documents certified by local secretary of State
+                            in all 50 States such as: Power of Attorney, Assignment, Agency agreement, Affidavit, CO, CI
+                            and notarized true copy of International Standards Organization (ISO) certificate. All
+                            documents must be certified from the local Secretary of State Office in the same State that
+                            issued the document before you send us your package.</p>
+                        
+
+                    </div>
+
+                </div>
+
+
+                <?php
+                            $SelectedDocument = array(
+                                "DocumentCaseId" => 1794,
+                                "HaveArabChamber" => true,
+                                "IsArabChamber" => true,
+                                "Count" => 1,
+                                "ArabChamberCount" => 1,
+                                "ProductList" => null,
+                                "SubDocumentId" => null,
+                                "StateId" => 19,
+                                "InvoiceList" => null,
+                                "ArroundTimeId" => null,
+                                "SubDocList" => null,
+                                "AkinJumpCount" => null
+                            );
+                            $services = get_services_without_post($SelectedDocument)->Services;
+                            $totalAmount = 0;
+                            
+                            ?>
+                <div class="row">
+                    <div class="col-sm-offset-2 col-sm-8">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped doctyp-tbl">
+                                <tbody>
+                                <tr>
+                                        <th width="60%">Service requested</th>
+                                        <!-- <th>Count</th> -->
+                                        <th>
+                                        TotalFee
+
+                                        </th>
+
+                                    </tr>
+
+                                    <?php foreach ($services as $key => $value) { ?>
+                                        <tr>
+                                            <td><b><?php echo $value->Name; ?></b></td>
+                                            <!-- <td>
+                                            <?php echo $value->Count; ?>
+                                            </td> -->
+                                            <td>
+                                            $<?php echo $value->TotalFee; $totalAmount+=$value->TotalFee; ?>
+                                            </td>
+                                        </tr>
+
+                                    <?php } ?>
+                                    
+                                    <tr>
+                                        <td><b>Total</b></td>
+                                        
+                                        <td>
+                                        <b>$<?php echo $totalAmount; ?></b>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-offset-5 col-sm-2">
+                        <a type="button" data-case-consulate="1" data-case-arab="1" data-case-id="1794" data-case-name="Documents Certified by Local Secretary of State" class="btn btn-warning form-control pay-btn order-handle-case"  data-toggle="modal" data-target="#exampleModal3">Order</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="banner">
+            <nav class="leftMenu navbar  ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+
+                <div class="row" style="margin:0">
+                    <div class="col-md-2 email">
+                                           <i class="fas fa-phone"></i><span class="tel"><img src="<?php bloginfo('template_directory')?>/assets/images/tel-01.png"></span>
+
+                        <br>
+                        <i class="far fa-envelope-open"></i><span class="emil"><img src="<?php bloginfo('template_directory')?>/assets/images/mail-01.png"></span>
+
+                    </div>
+
+                    <div class="col-md-10">
+                        <div class="collapse navbar-collapse show justify-content-end" id="navbarSupportedContent">
+                            <ul class="desktopLinks menu-1">
+
+                                <li class="link active"><a data-name="Services" data-index="1"
+                                        data-automation-hook="nav-link-services"
+                                        data-test-hook="navLink-1659754254319930" target=""
+                                        class="navigation-link font-size3" href="<?php echo site_url(); ?>">
+                                        <span>home</span></a></li>
+                                <li class="link "><a data-name="Services" data-index="1"
+                                        data-automation-hook="nav-link-services"
+                                        data-test-hook="navLink-1659754254319930" target=""
+                                        class="navigation-link font-size3" href="citizen">
+                                        <span>Citizen</span></a></li>
+                                <li class="link ">
+                                    <a data-name="Services" data-index="1" data-automation-hook="nav-link-services"
+                                        data-test-hook="navLink-1659754254319930" target=""
+                                        class="navigation-link font-size3 dropdown-link" href="#">
+                                        <span>Visa type & TRAVEL</span> <i class="fas fa-angle-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="<?php echo site_url(); ?>/travel/Government-Visa">Government Visa</a>
+                                        </li>
+                                        <li><a href="<?php echo site_url(); ?>/travel/Diplomatic-and-Official-Visa">Diplomatic and Official
+                                                Visa</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/travel/Diplomatic-Missions-and-Organizations">Diplomatic
+                                                Missions and Organizations</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/travel/Tourist-Visa">Tourist Visa</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/travel/Business-Visa-Requirements">Business Visa
+                                                Requirements</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/travel/employmentVisa">Employment Visa</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/travel/Residence-Visa-Requirements">Residence Visa
+                                                Requirements</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/travel/Premium-Residency-Visa">Premium Residency Visa</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/travel/ExitRe-Entry-Visa">Exit/Re-Entry Visa</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/travel/Family-Visit-Visa">Family Visit Visa</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/travel/Companion-Visa">Companion Visa</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/travel/Personal-Visit-Visa">Personal Visit Visa</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/travel/Student-Visa">Student Visa</a></li>
+
+
+
+                                    </ul>
+                                </li>
+                                <li class="link ">
+                                    <a data-name="Services" data-index="1" data-automation-hook="nav-link-services"
+                                        data-test-hook="navLink-1659754254319930" target=""
+                                        class="navigation-link font-size3 dropdown-link" href="#">
+                                        <span>Service</span> <i class="fas fa-angle-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="link ">
+                                            <a data-name="Documents-legalization" data-index="1" data-automation-hook="nav-link-Documents-legalization"
+                                                data-test-hook="navLink-1659754254319930" target=""
+                                                class="navigation-link font-size3 dropdown-link" href="#">
+                                                <span>Documents legalization</span> <i class="fas fa-angle-down"></i></a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="<?php echo site_url(); ?>/services/export-document">Export Document</a>
+                                                </li>
+                                                <li>
+                                                    <a href="<?php echo site_url(); ?>/services/federal-documents">Federal Documents</a>
+                                                </li>
+                                                <li>
+                                                    <a href="<?php echo site_url(); ?>/services/state-certified-documents">State Certified Documents</a>
+                                                </li>
+                                                
+                                                
+                                            </ul>
+                                        </li>
+                                        
+                                        </li>
+                                        <li><a href="<?php echo site_url(); ?>/services/USACC">arab chamber of commerce</a></li>
+                                    </ul>
+                                </li>
+                                <li class="link ">
+                                    <a data-name="Services" data-index="1" data-automation-hook="nav-link-services"
+                                        data-test-hook="navLink-1659754254319930" target=""
+                                        class="navigation-link font-size3 dropdown-link" href="#">
+                                        <span>locations</span> <i class="fas fa-angle-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="<?php echo site_url(); ?>/locations/USA">In USA</a>
+                                        </li>
+                                        <li><a href="<?php echo site_url(); ?>/locations-world-wide">world Wide</a></li>
+                                    </ul>
+                                </li>
+                                <li class="link ">
+                                    <a data-name="Services" data-index="1" data-automation-hook="nav-link-services"
+                                        data-test-hook="navLink-1659754254319930" target=""
+                                        class="navigation-link font-size3 dropdown-link" href="#">
+                                        <span>About Saudi Arabia</span> <i class="fas fa-angle-down"></i></a>
+                                    <ul class="dropdown-menu">
+
+
+                                        <li> <a href="<?php echo site_url(); ?>/about/Agriculture&Water">Agriculture & Water</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/about/Culture&Art">Culture & Art</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/about/Economy&GlobalTrade">Economy & Global Trade</a></li>
+
+                                        <li> <a href="<?php echo site_url(); ?>/about/Education">Education</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/about/Energy">Energy</a></li>
+                                        <li>
+                                            <a href="<?php echo site_url(); ?>/about/Facts&Figures">Facts & Figures</a>
+                                        </li>
+                                        <li><a href="<?php echo site_url(); ?>/about/Health&Social Services">Health & Social Services</a>
+                                        </li>
+                                        <li><a href="<?php echo site_url(); ?>/about/Laws">Laws</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/about/Provinces">Provinces</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/about/SportsAndRecreation">Sports And Recreation</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/about/Tourism">Tourism</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/about/Transportation&Communication">Transportation &
+                                                Communication</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/about/Government">Government</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/about/Ministries">Ministries</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/about/Bringing-Pets-to-Saudi-Arabia">Bringing Pets to Saudi
+                                                Arabia</a></li>
+                                    </ul>
+                                </li>
+                                 <li class="link "><a data-name="Services" data-index="1" data-automation-hook="nav-link-services"
+                                            data-test-hook="navLink-1659754254319930" target="" class="navigation-link font-size3" href="/about-us">
+                                            <span>About us</span></a></li>
+                                        <li class="link "><a data-name="Services" data-index="1" data-automation-hook="nav-link-services"
+                                            data-test-hook="navLink-1659754254319930" target="" class="navigation-link font-size3" href="/contact-us">
+                                            <span>Contact us</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            </div>
+
+        
+
+
+<?php
+get_footer();
+?>

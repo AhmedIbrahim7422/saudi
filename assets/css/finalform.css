@@ -1,0 +1,408 @@
+
+.finalForm main {
+  padding: 0 20px;
+  padding-bottom: 20px;
+}
+
+.finalForm .header {
+  padding: 20px 10px;
+  /* background: #f9f9f9; */
+  margin-bottom: 20px;
+  /* border-bottom: 2px solid; */
+  /* position: absolute; */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* color: white; */
+}
+
+.finalForm .footer {
+  padding: 2px 20px;
+  background: #101348;
+  /* margin-bottom: 20px; */
+  border-bottom: 2px solid;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+  color: white;
+  text-align: center;
+  width: 93%;
+  margin: auto;
+  border: 7px solid #ded1ac;
+  outline: 2px solid gray;
+}
+
+.finalForm .header b {
+  /* margin-right: 12px; */
+}
+
+.finalForm .header span:first-child {
+  margin-right: 5px;
+  display: inline-block;
+  /* width: 39%; */
+}
+
+.finalForm .header h1 {
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* color: wheat; */
+  color: #101348;
+  /* text-shadow: 0px 1px 1px black; */
+  font-family: 'Poppins';
+  margin-bottom: 10px;
+}
+
+.finalForm .header img {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  /* top: -9px; */
+  /* left: -31px; */
+  margin: auto;
+}
+
+.finalForm .header h2 {
+  text-align: left;
+  font-size: 17px;
+  margin: 0;
+  font-family: revert;
+  font-weight: bold;
+font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #101348;
+    /* font-family: 'Poppins'; */
+    /* margin-bottom: 10px; */}
+
+.finalForm .header .block {
+  /* background-color: #9898ec; */
+  padding: 0 15px;
+  width: 86%;
+}
+
+.finalForm ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.finalForm .footer h1 {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: wheat;
+}
+
+.finalForm .footer img {
+  width: 156px;
+  margin: auto;
+  /* position: absolute; */
+  /* top: 0; */
+}
+
+.finalForm ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.finalForm ul li {
+  margin-bottom: 3px;
+  display: inline-block;
+  /* width: 49%; */
+  font-weight: normal;
+}
+
+.finalForm .header ul li {
+  width: 100%
+}
+
+.finalForm .footer ul li {
+  color: white;
+}
+
+.finalForm .footer ul li:last-child {
+  text-align: right;
+  margin-left: 32px;
+}
+
+.finalForm h2 {
+  font-size: 21px;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+}
+
+.finalForm .form-group {
+  margin: 0;
+}
+
+.finalForm section {
+  background: #f9f9f9;
+  padding: 12px;
+  border-bottom: 2px solid;
+}
+
+.finalForm table tbody {
+  background: #f9f9f9;
+  border-top: 1px solid;
+  border-left: 1px saddlebrown;
+}
+
+.finalForm table tr {
+  /* border-bottom: 1px solid!important; */
+  /* background: #f9f9f9; */
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.finalForm table td {
+  border-bottom: 1px solid;
+  padding: 5px;
+  border-right: 1px solid;
+}
+
+.finalForm table {
+  width: 100%;
+  background: #f9f9f9;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid; */
+  border-right: 1px solid;
+}
+
+.finalForm table tr .white {
+  border: 0;
+  background-color: white;
+}
+
+.finalForm table th {
+  /* text-decoration: underline; */
+  padding: 3px 5px;
+  /* text-align: center; */
+  background: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  background: #d30f0f;
+  color: white;
+  font-weight: normal;
+}
+
+.bl-1 {
+  border-left: 1px solid;
+}
+
+.finalForm table .redBorder {
+  border: 3px solid red;
+}
+
+.finalForm .col-xs-4:last-child {
+  /* padding-left: 70px; */
+  padding-top: 74px;
+  padding-right: 0;
+  color: black;
+}
+
+.finalForm .comment {
+  background-color: #ffbfc894;
+  padding: 12px;
+  width: 53%;
+  margin-top: 19px;
+  border-radius: 3px;
+  text-align: left;
+  font-size: 10px;
+}
+
+.finalForm .comment p {
+  /* color: white; */
+  font-size: 11px;
+  text-align: left;
+}
+
+.finalForm h3 {
+  margin: 0;
+  margin-top: 1em;
+  font-size: 17px;
+  background: #d30f0f;
+  color: white;
+  padding: 7px;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 4px;
+  font-weight: normal;
+}
+
+@media print {
+  div{
+    break-inside: avoid !important;
+  }
+  .container{
+    width: 100%;
+    max-width: 100%;
+    break-inside: avoid;
+  }
+  .finalForm {
+    width: 100%;
+    border: 0;
+    break-inside: avoid;
+  }
+
+  .usapostile-nav-white {
+    display: none;
+  }
+
+  .col-lg-10 {
+    padding: 0;
+    width: 100%;
+  }
+
+  .finalForm .header img {
+    width: 100%;
+
+    margin-bottom: 20px;
+
+
+  }
+  .finalForm main{
+    break-inside: auto;
+  }
+  .finalForm .footer {
+
+    background: #101348;
+
+    color: white;
+  }
+
+  .finalForm ul li {
+    font-size: 10pt;
+  }
+
+  .finalForm .header h2 {
+
+    font-size: 14px;
+  display: block;text-align: left;}
+
+  .finalForm .header h1 {
+    font-size: 19px;
+  }
+
+  .finalForm .comment {
+    -webkit-print-color-adjust: exact !important;
+    background-color: #ffbfc894 !important;
+  }
+
+  .finalForm table th {
+    -webkit-print-color-adjust: exact !important;
+    background-color: #d30f0f !important;
+    color: white !important;
+  }
+
+  .finalForm .col-xs-4:last-child {
+    padding-left: 0 !important;
+  }
+
+  .finalForm h3 {
+    -webkit-print-color-adjust: exact !important;
+    background-color: black !important;
+    color: white !important;
+  }
+}
+
+
+@media screen and (max-width:1700px) {
+  .finalForm {
+    width: 72%;
+    overflow: auto;
+  }
+}
+
+@media screen and (max-width:1500px) {
+  .finalForm {
+    width: 66%;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .finalForm {
+    width: 72%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .finalForm .header img {
+    width: 151px;
+  }
+
+  .finalForm {
+    width: 100%;
+  }
+
+  .finalForm .header h2 {
+    text-align: left;
+  
+  }
+}
+
+.finalForm header {
+
+  background: #343639;
+  padding: 12px;
+  margin: 0 !important;
+}
+
+.finalForm header .icons {
+  color: white;
+  text-align: right;
+}
+
+.finalForm header .icons i {
+  margin: 0 10px;
+}
+
+.finalForm .bordered {
+  border: 20px solid #515557;
+  min-width: 650px;
+  background-color: #fff;
+  overflow: auto;
+}
+.finalForm .col-xs-4 {
+  width: 30%;
+}
+.finalForm .col-xs-2 {
+  width: 20%;
+}
+
+.finalForm  .col-xs-6{
+  width: 50%;
+}
+.finalForm  .col-xs-8 {
+  width: 60%;
+}
+.print_fedex_ticket{
+  background-image: linear-gradient(to right, #4d148c 50%, #ff6600 50%);
+  color: #fff;
+}
+@media print {
+  .blog .container{
+    width:100%;
+  background: white;max-width: 100%;padding: 0;}
+  .no-print {
+    display: none;
+  }
+  .saudiEmbassy footer{
+    display: none;
+  }
+  .finalForm .bordered{
+    border:0;
+  }
+}
+.file-name{
+  color:white;
+}

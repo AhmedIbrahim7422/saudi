@@ -1,0 +1,406 @@
+/* FRONT OF CARD */
+#svgname {
+  text-transform: uppercase;
+}
+
+#cardfront .st2 {
+  fill: #ffffff;
+}
+
+#cardfront .st3 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+}
+
+#cardfront .st4 {
+  font-size: 54.7817px;
+}
+
+#cardfront .st5 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+}
+
+#cardfront .st6 {
+  font-size: 33.1112px;
+}
+
+#cardfront .st7 {
+  opacity: 0.6;
+  fill: #ffffff;
+}
+
+#cardfront .st8 {
+  font-size: 24px;
+}
+
+#cardfront .st9 {
+  font-size: 36.5498px;
+}
+
+#cardfront .st10 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 300;
+}
+
+#cardfront .st11 {
+  font-size: 16.1716px;
+}
+
+#cardfront .st12 {
+  fill: #4c4c4c;
+}
+
+#cardback .st0 {
+  fill: none;
+  stroke: #0f0f0f;
+  stroke-miterlimit: 10;
+}
+
+#cardback .st2 {
+  fill: #111111;
+}
+
+#cardback .st3 {
+  fill: #f2f2f2;
+}
+
+#cardback .st4 {
+  fill: #d8d2db;
+}
+
+#cardback .st5 {
+  fill: #c4c4c4;
+}
+
+#cardback .st6 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+}
+
+#cardback .st7 {
+  font-size: 27px;
+}
+
+#cardback .st8 {
+  opacity: 0.6;
+}
+
+#cardback .st9 {
+  fill: #ffffff;
+}
+
+#cardback .st10 {
+  font-size: 24px;
+}
+
+#cardback .st11 {
+  fill: #eaeaea;
+}
+
+#cardback .st12 {
+  font-family: "Rock Salt", cursive;
+}
+
+#cardback .st13 {
+  font-size: 37.769px;
+}
+
+.divcredit .container {
+  perspective: 1000px;
+}
+
+.creditcard {
+  width: 100%;
+  margin: auto;
+  max-width: 500px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  transition: -webkit-transform 0.6s;
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+  cursor: pointer;
+  min-height: 36vh;
+}
+
+.creditcard .front,
+.creditcard .back {
+  position: absolute;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+  color: #47525d;
+}
+
+.creditcard .back {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.creditcard.flipped {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.align {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.align__item--start {
+  align-self: flex-start;
+}
+.align__item--end {
+  align-self: flex-end;
+}
+
+.text--center {
+  text-align: center;
+}
+
+#payinfoDiv .card {
+  background-color: #3b3b6d;
+  border-radius: 1rem;
+  font-family: "Abel";
+  color: #47474e;
+  /* padding: 2rem; */
+  /* font-family: Abel; */
+  width: 441px;
+  margin: auto;
+  /* margin-top: 12em; */
+  background-image: url("../content/images/visaCreditCard.jpg");
+  background-size: cover;
+  height: 286px;
+  padding-top: 1px;
+}
+.card__header {
+  margin-bottom: 4rem;
+  padding: 5px;
+}
+.card__header:before,
+.card__header:after {
+  content: " ";
+  display: table;
+}
+.card__header:after {
+  clear: both;
+}
+.card__title {
+  color: #fff !important;
+  float: left;
+  font-size: 2.5rem !important;
+  font-family: Abel;
+}
+.card__logo {
+  float: right;
+}
+.card__number__input {
+  font-size: 3rem;
+}
+.card__expiration {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.card__expiration p {
+  position: absolute;
+  top: 0;
+  left: 44px;
+  font-size: 25px;
+  color: white;
+}
+.card__ccv {
+  float: right;
+}
+.card__ccv__input {
+  width: 3.75rem;
+}
+.card .ui-selectmenu-button {
+  float: left;
+  margin-right: 2rem;
+}
+
+.credit input {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font: inherit;
+  width: auto;
+}
+.card input::placeholder {
+  color: #fff;
+  font-size: 25px;
+}
+
+.card label {
+  display: block;
+  font-weight: normal;
+  color: #f5da75;
+  font-size: 20px;
+}
+
+.form:before,
+.form:after {
+  content: " ";
+  display: table;
+}
+.form:after {
+  clear: both;
+}
+.form__field {
+  /* margin-bottom: 1.5rem; */
+}
+.form input {
+  outline: 0;
+  font-weight: normal;
+  font-size: 24px;
+  font-family: "Nunito";
+  margin-left: 12px;
+  background: transparent;
+  display: inline-block;
+  border: 0;
+}
+
+.form .card__year__input {
+  position: absolute;
+  top: 0;
+  left: 45px;
+}
+
+.form input[type="email"],
+.form input[type="password"] {
+  width: 100%;
+}
+
+.grid {
+  margin: 0 auto;
+  max-width: 36rem;
+  width: 90%;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0.5rem;
+}
+
+svg {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  color: #171a1c;
+}
+
+.ui-selectmenu-menu {
+  display: none;
+  font-family: Abel;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+}
+.ui-selectmenu-menu li {
+  background-color: #171a1c;
+  color: #fff;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+}
+.ui-selectmenu-menu li.ui-state-focus {
+  background-color: #47474e;
+}
+.ui-selectmenu-menu .ui-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow: auto;
+}
+.ui-selectmenu-open {
+  display: block;
+}
+.ui-selectmenu-button {
+  color: #fff;
+  cursor: pointer;
+  outline: 0;
+}
+.ui-selectmenu-button.ui-corner-top .ui-icon-triangle-1-s {
+  transform: rotate(-180deg);
+}
+.ui-selectmenu-button .ui-icon-triangle-1-s {
+  background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="-254 408.9 42 24" fill="#47474e"><path d="M-212 411.9c0-1.7-1.3-3-3-3-.8 0-1.5.3-2.1.8l-15.9 15.9-15.7-15.7c-.5-.6-1.4-1-2.3-1-1.7 0-3 1.3-3 3 0 .8.3 1.5.8 2.1l18 18c.5.6 1.3.9 2.2.9.8 0 1.6-.4 2.2-.9l18-18c.5-.6.8-1.3.8-2.1z"/></svg>')
+    50%/14px no-repeat;
+  float: right;
+  height: 14px;
+  margin-top: 5px;
+  transform-origin: 50%;
+  transition: transform 0.3s;
+  width: 14px;
+}
+.card__name__input {
+  font-size: 29px !important;
+  font-family: "Poppins";
+}
+.credCard .custom-select-trigger {
+  border: 0;
+  color: white;
+  font-size: 22px;
+  line-height: 30px;
+  padding: 0;
+  width: 140px;
+}
+.credCard .custom-select-trigger::after {
+  right: 22px;
+  width: 10px;
+  height: 10px;
+  font-weight: normal;
+  border-bottom: 2px solid rgb(245 218 117);
+  border-right: 2px solid rgb(245 218 117);
+  top: 15px;
+}
+.card .custom-select-wrapper {
+  width: 133px;
+}
+.card .custom-select {
+  height: auto;
+  width: 157px;
+}
+.card .custom-option {
+  font-size: 17px;
+  padding: 0;
+  line-height: 30px;
+  background: #f8eec8;
+}
+.card .custom-options {
+  max-height: 133px;
+}
+
+@media (max-width: 1200px) {
+  .card {
+    width: 100%;
+
+    margin: 0;
+
+    margin-bottom: 5em;
+
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .pre {
+    width: 100%;
+  }
+  .form-container {
+    width: 100%;
+    margin-top: 2em;
+  }
+  .btns .btn-lg {
+    width: auto;
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "sasous/saudi-theme",
+    "autoload": {
+        "psr-4": {
+            "Sasous\\SaudiTheme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Nasser"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^8.2"
+    }
+}

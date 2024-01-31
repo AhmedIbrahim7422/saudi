@@ -1,0 +1,21 @@
+<?php
+ $session['lastOrder']['name'];
+ $session['lastOrder']['address'];
+ $session['lastOrder']['city'];
+ $session['lastOrder']['state'];
+ $session['lastOrder']['zipcode'];
+ $session['lastOrder']['phone'];
+ $session['lastOrder']['email'];
+ $session['lastOrder']['invoiceNo'];
+ $session['lastOrder']['docCount'];
+ $session['lastOrder']['trackingIn'];
+ $session['lastOrder']['trackingIn'];
+ $session['lastOrder']['paymentMethod'];
+ $session['lastOrder']['timelinMonth'];
+ $session['lastOrder']['timelinDay'];
+ $session['lastOrder']['timelinYear'];
+ $session['lastOrder']['services'];
+ $session['countryDocumentObject'];
+ $session['selectedUserData'];
+ $session['serviceInfo'];
+ $session['documentCaseObj'];

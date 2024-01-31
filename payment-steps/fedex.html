@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="container">
+    <div  class="order-form-22">
+        
+        
+            <div class="row">
+                <div class="col-md-12">
+                    <form class="">
+                        <br>
+                      
+                        <div class="p-12 radio-Container">
+                       
+                            <div class="form-row shippingoptiontype">
+                                <div class="col-xs-12 p-0">
+                                    <div class="form-check ">
+                                        <input class="form-check-input col-xs-1 " type="radio" name="shipping_info" id="myown_shipping" value="my own shipping">
+                                        <label class="form-check-label col-xs-11" for="myown_shipping">
+                                            I will ship my document(s) using my own account
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="form-row shippingoptiontype">
+                                <div class="col-xs-12 p-0">
+                                    <div class="form-check ">
+                                        <input class="form-check-input col-xs-1 box-check2" type="radio" name="shipping_info" id="2days_shipping" value="2 days Fedex">
+                                        <label class="form-check-label col-xs-11" for="2days_shipping" id="2days_fedex">
+                                            I would like to buy 2 FedEx airway bills based on <span style="color: red;font-size:27px;">2</span> days delivery for <span class="single_envelope" style="font-size:27px;">$11</span> each. Total of <span class="double_envelopes" style="font-size:27px;">$22</span>  (48 states)
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row shippingoptiontype">
+                                <div class="col-xs-12 p-0">
+                                    <div class="form-check ">
+                                        <input class="form-check-input col-xs-1 box-check" type="radio" name="shipping_info" id="1day_shipping" value="Next day Fedex">
+                                        <label class="form-check-label col-xs-11" for="1day_shipping" id="1day_fedex">
+                                            I would like to buy 2 FedEx airway bills based on <span style="color: red;font-size:27px;">1</span> day delivery for <span class="single_envelope" style="font-size:27px;">$25</span> each. Total of <span class="double_envelopes" style="font-size:27px;">$50</span>  (48 states)
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="form-row shippingoptiontype" style="display:none;">
+                                <div class="col-xs-12 p-0">
+                                    <div class="form-check ">
+                                        <input class="form-check-input col-xs-1 box-check" type="radio" name="shipping_info" id="international_shipping" value="Next day Fedex">
+                                        <label class="form-check-label col-xs-11" for="1day_shipping">
+                                            I would like to buy International FedEx airway bills based on <span style="color: red;"></span> delivery for $30.00 each. Total of $60.00  (48 states)
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                       
+                        </div>
+            
+                        <div class="fedx-div">
+                            <div class="row fedxop-div reg-fedx-div">
+                                <div class="col-sm-12">
+                                    <div class="row-flex fedx-data">
+                                        <div class="col-sm-12 col-xs-12 equalH eq">
+                                            <div class="row form-group " id="divmodelfedex">
+                                                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6">
+                                                    <div class="column" id="divdemofrom">
+                                                        <div class="exampleOverlay"><p>Example</p></div>
+                                                        <div class="row">
+                                                            <div class="col-sm-7 col-xs-7 infedx-lft">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <p>ORIGIN ID:GBOA&nbsp;<span class="senderfromphone">08889993434</span> </p>
+                                                                        <p> <span class="senderfromfirstname">bsnt</span> <span class="senderfromlastname">gmal</span></p>
+                                                                        <p><span id="spncompsend"></span></p>
+                                                                        <p>
+                                                                            <span class="senderfromstreetaddress">24 شارع عبد العزيز فهمي</span><br>
+                                                                            <span class="senderfromcity">ANNAPOLIS</span> <span class="senderfromstate">Maryland</span> <span class="senderfromzipcode">21409</span>
+                                                                        </p>
+                                                                        <p>United States</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-5 col-xs-5 infedx-rght">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <p id="pshipdate2">Ship Date : 100CT</p>
+                                                                        <p>ACTVVGT: 0.20 LB</p>
+                                                                        <p>CAD:119084289/WSXI3400</p>
+                                                                        <p>BILL SENDER</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <hr class="frm-hr">
+                                                        <div class="row">
+                                                            <div class="col-sm-10 col-xs-9 infedx-lft">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <p class="addtxt-p">
+                                                                            TO 
+                                                                            <b>
+                                                                                <span class="office_name">US Apostille</span>
+                                                                            </b>
+                                                                            <br>
+                                                                            <span class="office_address">1330 New Hampshire Ave, NW, Washington</span> 
+                                                                            <br>
+                                                                            <span class="office_city">Washington</span>, 
+                                                                            <span class="office_state_abb">Washington DC</span> 
+                                                                            <span class="office_zipcode">20036</span>
+                                                                        </p>
+                                                                        <p><small> <span class="office_tel">(202) 822-5050</span>  <span style="margin-left:20px;">REF:</span></small></p>
+                                                                        <p><small>INV:</small></p>
+                                                                        <p><small>PO:  <span style="margin-left:120px;">DEPT:</span> </small></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-2 col-xs-3 infedx-rght" style="border-left: none;">
+                                                                <div class="vertfrm-txt">5678fgh657</div>
+                                                            </div>
+                                                        </div>
+                                                        <hr class="frm-hr">
+                                                        <div class="row">
+                                                            <div class="col-sm-8 col-xs-8">
+                                                                <img src="https://www.usapostille.com/wp-content/themes/twentytwentyone/images/label.jpg" class="img-responsive" alt="barcode">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-9 col-xs-9 infedx-lft">
+                                                                <img src="https://www.usapostille.com/wp-content/themes/twentytwentyone/images/barcode.jpg" class="img-responsive" alt="barcode">
+                                                            </div>
+                                                            <div class="col-sm-3 col-xs-3 infedx-rght">
+                                                                <img src="https://www.usapostille.com/wp-content/themes/twentytwentyone/images/fedx-img.jpg" class="img-responsive" alt="fedex">
+                                                            </div>
+                                                        </div>
+            
+                                                        <hr class="frm-hr">
+                                                        <div class="row">
+                                                            <div class="col-sm-8 col-xs-8 infedx-lft">
+                                                                <div class="row">
+                                                                    <div class="col-sm-3 col-xs-4">
+                                                                        <div class="numlft"><div>TRK#</div><span class="numdiv"><b>0201</b></span></div>
+                                                                    </div>
+                                                                    <div class="col-sm-9 col-xs-8">
+                                                                        <div class="numrght"><b>7946 3138 7730</b></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <p class="segboa-p">
+                                                                            <b>
+                                                                                SE GBOA
+                                                                            </b>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-4 col-xs-4 infedx-rght" style="border-left: none;">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <div><b id="shipretdate">TUE - 12 MAR 4:30P</b></div>
+                                                                        <div><b>** 2DAY **</b></div>
+                                                                        <div><b>12345</b></div>
+                                                                        <div><b><span> ghgjg - US</span></b></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-12 col-xs-12">
+                                                                <img src="https://www.usapostille.com/wp-content/themes/twentytwentyone/images/label2.jpg" class="img-responsive fedximg" alt="fedximg">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6">
+                                                    <div class="column" id="divdemoto">
+                                                           <div class="exampleOverlay"><p>Example</p></div>
+                                                        <div class="row">
+                                                            <div class="col-sm-7 col-xs-7 infedx-lft">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <p>ORIGIN ID:GBOA&nbsp; <span class="office_tel">(202) 822-5050</span></p>
+                                                                        <p><span class="office_name">US Apostille</span></p>
+                                                                        <p>
+                                                                            <span class="office_address">1330 New Hampshire Ave, NW, Washington</span>
+                                                                            <br><span class="office_city">Washington</span>, <span class="office_state_abb">Washington DC</span> <span class="office_zipcode">20036</span>
+                                                                        </p>
+                                                                        <p>United States</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-5 col-xs-5 infedx-rght">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <p id="pshipdate2">Ship Date : 100CT</p>
+                                                                        <p>ACTVVGT: 0.20 LB</p>
+                                                                        <p>CAD:119084289/WSXI3400</p>
+                                                                        <p>BILL SENDER</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <hr class="frm-hr">
+                                                        <div class="row">
+                                                            <div class="col-sm-10 col-xs-9 infedx-lft">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <p class="addtxt-p">
+                                                                            TO <b>
+                                                                                <span class="sendertofirstname">bsnt</span> <span class="sendertolastname">gmal</span>
+                                                                                <br><span class="sendertostreetaddress">24 شارع عبد العزيز فهمي</span><br>
+                                                                                <span class="sendertocity">ANNAPOLIS</span> <span class="sendertostate">Maryland</span> <span class="sendertozipcode">21409</span>
+                                                                            </b>
+                                                                        </p>
+                                                                        <p><small><span class="sendertophone">08889993434</span> <span style="margin-left:20px;">REF:</span></small></p>
+                                                                        <p><small>INV:</small></p>
+                                                                        <p><small>PO:  <span style="margin-left:30px;">DEPT:</span></small></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-2 col-xs-3 infedx-rght" style="border-left: none;">
+                                                                <div class="vertfrm-txt">5678fgh657</div>
+                                                            </div>
+                                                        </div>
+                                                        <hr class="frm-hr">
+                                                        <div class="row">
+                                                            <div class="col-sm-8 col-xs-8">
+                                                                <img src="https://www.usapostille.com/wp-content/themes/twentytwentyone/images/label.jpg" class="img-responsive" alt="barcode">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-9 col-xs-9 infedx-lft">
+                                                                <img src="https://www.usapostille.com/wp-content/themes/twentytwentyone/images/barcode.jpg" class="img-responsive" alt="barcode">                
+                                                            </div>
+                                                            <div class="col-sm-3 col-xs-3 infedx-rght">
+                                                                <img src="https://www.usapostille.com/wp-content/themes/twentytwentyone/images/fedx-img.jpg" class="img-responsive" alt="fedex">
+                                                            </div>
+                                                        </div>
+            
+                                                        <hr class="frm-hr">
+                                                        <div class="row">
+                                                            <div class="col-sm-8 col-xs-8 infedx-lft">
+                                                                <div class="row">
+                                                                    <div class="col-sm-3 col-xs-4">
+                                                                        <div class="numlft">
+                                                                            <div>TRK#</div>
+                                                                            <span class="numdiv">
+                                                                                <b>0201</b>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-9 col-xs-8">
+                                                                        <div class="numrght"><b>7946 3138 7730</b></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <p class="segboa-p">
+                                                                            <b>
+                                                                                SE GBOA
+                                                                            </b>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-4 col-xs-4 infedx-rght" style="border-left: none;">
+            
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+            
+                                                                        <div><b id="shipretdate1">TUE - 12 MAR 4:30P</b></div>
+                                                                        <div><b>** 2DAY **</b></div>
+                                                                        <div><b> <span id="spnzipcode2receipt"></span></b></div>
+                                                                        <div><b> <span id="spnstatereceipt"></span></b></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-12 col-xs-12">
+                                                                <img src="https://www.usapostille.com/wp-content/themes/twentytwentyone/images/label2.jpg" class="img-responsive " alt="fedex">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row actions-Btn">
+                            <div class="col-6">
+                                <a class="btn btn-info backBtn" href="index.html"> back</a>
+                                <button class="btn btn-danger edit-btn" style="display: none;">EDit</button>
+                            </div>
+                            <div class="col-6 d-flex   justify-content-end">
+                                <a class="btn btn-success nextBtn" href="payment-method.html"> Next</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+    $(function(){
+        
+    });
+</script>
+</html>
